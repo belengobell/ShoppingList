@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Events - Shopping List</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://css.gg/trash.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Shopping List</h1>
+			<p id="first">Get it done today</p>
+		</header>
+		<section>
+		<input type="text" id="userinput" placeholder="enter items">
+		<button id="enter">Enter</button>
+			<ul class="background--lightgreen" id="ulHook">
+				<div class="li-wrapper">
+					<li>Fish</li>
+					<div class="gg-trash" class="bin"></div>
+				</div>
+				<div class="li-wrapper">
+					<li>Fruit</li>
+					<div class="gg-trash" class="bin"></div>
+				</div>
+				<div class="li-wrapper">
+					<li>Chicken</li>
+					<div class="gg-trash" class="bin"></div>
+				</div>
+				<div class="li-wrapper">
+					<li>Pasta</li>
+					<div class="gg-trash" class="bin"></div>
+				</div>
+			</ul>
+		<button id="deleteAll">Clear List</button>
+		</section>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
